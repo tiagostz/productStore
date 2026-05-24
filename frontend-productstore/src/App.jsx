@@ -145,13 +145,31 @@ function App() {
             disabled={!!editingId}
           />
 
-          <input
+          <select
             name="category"
-            placeholder="Categoria"
             value={form.category}
             onChange={handleChange}
             required
-          />
+
+          >
+            <option
+              value=""
+              className="placeholder-option"
+            >
+              Selecione uma categoria
+            </option>
+
+            <option value="Eletronicos">Eletronicos</option>
+            <option value="Games">Games</option>
+            <option value="Audio">Audio</option>
+            <option value="Video">Video</option>
+            <option value="Perifericos">Perifericos</option>
+            <option value="Acessorios">Acessorios</option>
+            <option value="Tecnologia">Cadeiras Gamer</option>
+            <option value="Tecnologia">Papelaria</option>
+
+            
+          </select>
 
           <input
             name="price"
