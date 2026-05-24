@@ -78,6 +78,50 @@ Antes de executar o projeto, é necessário possuir instalado:
 
 ---
 
+# Pacotes utilizados
+
+## Back-end
+
+### Entity Framework Core SQL Server
+
+```bash
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+```
+
+### Entity Framework Core Design
+
+```bash
+dotnet add package Microsoft.EntityFrameworkCore.Design
+```
+
+### Serilog ASP.NET Core
+
+```bash
+dotnet add package Serilog.AspNetCore
+```
+
+### Serilog Console Sink
+
+```bash
+dotnet add package Serilog.Sinks.Console
+```
+
+### Swagger
+
+```bash
+dotnet add package Swashbuckle.AspNetCore
+```
+
+---
+
+## Front-end
+
+### Axios
+
+```bash
+npm install axios
+```
+
 # Como executar o Back-end
 
 ## Acesse a pasta da API
